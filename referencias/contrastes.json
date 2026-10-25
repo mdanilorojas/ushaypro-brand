@@ -1,0 +1,40 @@
+{
+  "metodo": "WCAG relative luminance; sRGB",
+  "combinaciones": [
+    {
+      "uso": "Tinta sobre papel",
+      "foreground": "#0E1116",
+      "background": "#F6F5F2",
+      "ratio": 17.35,
+      "AA_texto_normal": true
+    },
+    {
+      "uso": "Humo sobre papel",
+      "foreground": "#5F6B7A",
+      "background": "#F6F5F2",
+      "ratio": 4.98,
+      "AA_texto_normal": true
+    },
+    {
+      "uso": "Blanco sobre azul",
+      "foreground": "#FFFFFF",
+      "background": "#1A73E8",
+      "ratio": 4.51,
+      "AA_texto_normal": true
+    },
+    {
+      "uso": "Azul profundo sobre papel",
+      "foreground": "#0F4FA8",
+      "background": "#F6F5F2",
+      "ratio": 7.12,
+      "AA_texto_normal": true
+    },
+    {
+      "uso": "Azul principal sobre papel",
+      "foreground": "#1A73E8",
+      "background": "#F6F5F2",
+      "ratio": 4.13,
+      "AA_texto_normal": false
+    }
+  ]
+}

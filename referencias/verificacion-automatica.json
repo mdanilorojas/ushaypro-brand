@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-25",
+  "manualPages": 28,
+  "layoutIssues": [],
+  "javascriptErrors": [],
+  "motion": [
+    {
+      "shape": "ushay",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "lupa",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "balanza",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "carpeta",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "expediente",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "rubrica",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "salida",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "pliego",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "alerta",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "informe",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "check",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "dialogo",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    },
+    {
+      "shape": "metricas",
+      "blocks": 11,
+      "blue": 2,
+      "pressed": 1
+    }
+  ],
+  "playback": {
+    "playing": true,
+    "paused": true
+  },
+  "reduced": {
+    "disabled": true,
+    "transition": "0s",
+    "blocks": 11
+  },
+  "motionWidth": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "catalogWidth": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "brokenImages": []
+}

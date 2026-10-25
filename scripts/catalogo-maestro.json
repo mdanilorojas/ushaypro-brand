@@ -1,0 +1,54 @@
+{
+  "version": "2.1",
+  "fecha": "2026-10-25",
+  "estadoEstructura": "Propuesta de comunicación; agrupación y adscripción de skills abiertas a definición.",
+  "principio": "El agente expresa una responsabilidad. La skill expresa una tarea. La separación comercial no implica un LLM diferente para cada agente.",
+  "proveedores": [
+    {
+      "id": "oportunidades", "name": "Agente de Oportunidades", "role": "Oportunidades", "shape": "lupa", "verb": "Encontrar y seleccionar",
+      "headline": "Encuentra, filtra\ny prioriza.",
+      "description": "Reúne procesos y ayuda a seleccionar los que merecen una revisión según el contexto de la empresa.",
+      "tasks": ["Buscar procesos y reunir su información.", "Filtrar por encaje y criterios de la empresa.", "Priorizar oportunidades y explicar la selección."],
+      "skills": [{"nombre":"Búsqueda de procesos","forma":"lupa"},{"nombre":"Filtrado y clasificación","forma":"balanza"},{"nombre":"Preselección de oportunidades","forma":"check"}],
+      "example": "Estos procesos coinciden con los criterios indicados. Revisa los requisitos antes de elegir cuál preparar.",
+      "cta": "Explora la selección de oportunidades",
+      "limit": "Agrupación ilustrativa. La selección ayuda a priorizar; no predice adjudicaciones ni cierra el catálogo de skills."
+    },
+    {
+      "id": "ofertas", "name": "Agente de Ofertas", "role": "Ofertas", "shape": "expediente", "verb": "Preparar la oferta",
+      "headline": "Del pliego\na tu oferta.",
+      "description": "Acompaña la preparación de la oferta mediante lectura del pliego, revisión de errores y organización de los documentos.",
+      "tasks": ["Leer el pliego e identificar requisitos.", "Detectar errores, diferencias y puntos por revisar.", "Organizar respaldos y preparar las secciones de la oferta."],
+      "skills": [{"nombre":"Lectura de pliegos","forma":"pliego"},{"nombre":"Identificación de errores","forma":"alerta"},{"nombre":"Organización documental","forma":"carpeta"},{"nombre":"Preparación de oferta","forma":"expediente"},{"nombre":"Revisión de la propuesta","forma":"informe"}],
+      "example": "La oferta está organizada por requisitos. Revisa las observaciones y confirma los documentos antes de continuar.",
+      "cta": "Conoce la preparación de ofertas",
+      "limit": "La estructura comunica responsabilidades y skills; no acredita por sí sola disponibilidad, compatibilidad técnica o cumplimiento."
+    },
+    {
+      "id": "seguimiento", "name": "Agente de Seguimiento", "role": "Seguimiento", "shape": "metricas", "verb": "Acompañar el proceso",
+      "headline": "El proceso sigue.\nEl contexto también.",
+      "description": "Agrupa el acompañamiento del proceso: novedades, plazos y actuaciones que requieren respuesta del oferente.",
+      "tasks": ["Dar contexto a plazos y novedades.", "Ordenar consultas y aclaraciones.", "Acompañar la preparación de convalidaciones y sus respaldos."],
+      "skills": [{"nombre":"Seguimiento de plazos","forma":"metricas"},{"nombre":"Consultas y aclaraciones","forma":"dialogo"},{"nombre":"Preparación de convalidaciones","forma":"informe"},{"nombre":"Control de novedades","forma":"alerta"}],
+      "example": "Hay una actuación pendiente de revisión. Confirma el plazo y reúne los respaldos que solicita el proceso.",
+      "cta": "Explora el seguimiento del proceso",
+      "limit": "La adscripción de consultas, firma, envío y otras actuaciones permanece abierta. No se comunica ejecución automática sin respaldo."
+    }
+  ],
+  "estado": [
+    {
+      "id": "pliegos", "name": "Agente de Pliegos", "role": "Pliegos", "shape": "pliego",
+      "description": "Acompaña la revisión inicial de la necesidad institucional y la preparación del pliego.",
+      "human": "El equipo responsable valida antecedentes, contenido y aprobación.",
+      "skills": [{"nombre":"Revisión de la necesidad","forma":"lupa"},{"nombre":"Organización de antecedentes","forma":"carpeta"},{"nombre":"Elaboración del pliego","forma":"pliego"},{"nombre":"Revisión de coherencia","forma":"balanza"},{"nombre":"Preparación para aprobación","forma":"rubrica"}]
+    },
+    {
+      "id": "evaluacion", "name": "Agente de Evaluación", "role": "Evaluación", "shape": "balanza",
+      "description": "Acompaña la revisión de participantes, requisitos y calificación de las ofertas con su evidencia.",
+      "human": "La entidad confirma los criterios, valida la evaluación y conserva la decisión.",
+      "skills": [{"nombre":"Revisión de participantes","forma":"lupa"},{"nombre":"Contraste de requisitos","forma":"balanza"},{"nombre":"Calificación y matriz","forma":"metricas"},{"nombre":"Identificación de observaciones","forma":"alerta"},{"nombre":"Preparación del informe","forma":"informe"}]
+    }
+  ],
+  "transversales": ["Gestión documental y memoria", "Preguntas y respuestas", "Métricas e informes", "Firma y presentación", "Seguimiento contractual y fiscalización"],
+  "notaTransversales": "Son capacidades o skills posibles. Su adscripción y alcance permanecen por definir; no se convierten en agentes independientes por defecto."
+}
