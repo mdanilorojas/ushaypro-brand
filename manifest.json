@@ -1,14 +1,14 @@
 {
   "brand": "UshayPro",
-  "version": "2.1",
-  "date": "2026-10-25",
+  "version": "2.2",
+  "date": "2026-10-27",
   "publicUrl": "https://ushaypro.ec/marca/",
   "repository": "https://github.com/mdanilorojas/ushaypro-brand",
   "files": [
     {
       "path": "README.md",
-      "bytes": 3476,
-      "sha256": "45de77b70b67f05c36c042c89d4069665386b71f5129930a890312a7656becc1"
+      "bytes": 4045,
+      "sha256": "626981b45ebc34b8ccf52433b9144167c7a25899784fe7bc28733168417be01e"
     },
     {
       "path": "USO-DE-MARCA.md",
@@ -38,7 +38,7 @@
     {
       "path": "agentes/movimiento.html",
       "bytes": 35022,
-      "sha256": "6f8856ebb8b45197636f9704b2237a5f7f860f18801afb4e53e8bad2d04a0416"
+      "sha256": "9bd0a8c7454a6a22e73d72aa5686880f7621ec3c5727d5062b1975f41b0af7f3"
     },
     {
       "path": "agentes/movimiento.js",
@@ -627,8 +627,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 116543,
-      "sha256": "63320c5fde69c7b9a01a48443552b5746a4e542f31ea29d789dececbe5ded242"
+      "bytes": 116579,
+      "sha256": "c3a655d5d031d6b0192993874056342a812e2e90d6771c6b4b2d4f6529da6bc0"
     },
     {
       "path": "logos/README.md",
@@ -842,8 +842,8 @@
     },
     {
       "path": "manual/portada.png",
-      "bytes": 56690,
-      "sha256": "f1dc042cd77cba758d3a5c14b6a7960a46ff36b965bf3a0585bb4b337527fe73"
+      "bytes": 55988,
+      "sha256": "12aa1a88fccbecb14de8ed9bd26b13566d32f93b846208680db5e45edc46f7f5"
     },
     {
       "path": "manual/print.js",
@@ -852,18 +852,18 @@
     },
     {
       "path": "manual/ushaypro-manual-marca-v2.html",
-      "bytes": 295157,
-      "sha256": "ec95c9cbb88bef0e62ca05bf15ba58c842d11603558832b7aa0f52446328a968"
+      "bytes": 295125,
+      "sha256": "1a3560bfaaa120c5dfe2c03c0a39fcb2a1a88472de4475021b12f8f3de6ba902"
     },
     {
       "path": "manual/ushaypro-manual-marca-v2.pdf",
-      "bytes": 1258188,
-      "sha256": "60a5b5d02c9cdb85f464257c21b05dad0c192f13dfea2ba1bbea0b8aeaa13b32"
+      "bytes": 1259561,
+      "sha256": "2ec816894e2c4e2846792bf31ab4a32d193bebe6e6769b614b19e7d4ca01c251"
     },
     {
       "path": "mensajes.md",
-      "bytes": 3914,
-      "sha256": "7e43ddb9d51ba38a512d5046780cbeaef89add038a578296ba3dd3a5fb84fbb3"
+      "bytes": 9988,
+      "sha256": "15339afc11763f08116fb36e77198fcbf920373687cdc225f3ef947802ae42c3"
     },
     {
       "path": "pack.css",
@@ -873,17 +873,17 @@
     {
       "path": "package.json",
       "bytes": 297,
-      "sha256": "66efb69776fbc4cc23b4788a4e1aa1b4c1ef836bf64160e44dde87f50f4b021f"
+      "sha256": "0415c17fa7a31cadbd9d35408cc17f8b2058e513a6fd28fe713aae9e21b4a2b1"
     },
     {
       "path": "plantillas/01-proveedores-post.png",
-      "bytes": 59159,
-      "sha256": "b740399bfb2e17fd31926a903f01d91e00ba1eede40782e4dd0bb4df17e3fdf1"
+      "bytes": 62664,
+      "sha256": "5a82e10ef22ef08fd36dae2aabd7ffaba9f7169026f1bf6e69d27acf718f6bdd"
     },
     {
       "path": "plantillas/01-proveedores-post.svg",
-      "bytes": 77013,
-      "sha256": "494b88e586508737427cf6826adffb0682b4ba6686f1f6498f232882b43c10e3"
+      "bytes": 77054,
+      "sha256": "8c39bbbe939a9edb89e79c8c39d6cfeff9731d31314b2e482754c71be008b52a"
     },
     {
       "path": "plantillas/02-estado-post.png",
@@ -957,23 +957,23 @@
     },
     {
       "path": "plantillas/05-portada-video.png",
-      "bytes": 78842,
-      "sha256": "4ac59c69ee9cb22988f8b75af21fcaff15bcb0a389cbe434c88d65dd0b0d72e9"
+      "bytes": 73961,
+      "sha256": "a04fb0d928cec51d627ba7bccc485408c4936bdd182d76737f9d4b1d671d43ca"
     },
     {
       "path": "plantillas/05-portada-video.svg",
-      "bytes": 78495,
-      "sha256": "4fd281be6cedbd94437c66fcf87b78131305669479ba2cbf9a1e61e15210823a"
+      "bytes": 78407,
+      "sha256": "b95ab3ce8918be9ffddc86824a705d8787ac9f5744d544181e658d9ee1ca1369"
     },
     {
       "path": "plantillas/06-portada-presentacion.png",
-      "bytes": 83277,
-      "sha256": "878e7c11137e65fa4d7ecc62b86c592c7ed36452889d4b53fde192053450e56d"
+      "bytes": 69366,
+      "sha256": "b606c78f0880d6eff6e886c1be5c35273a064b6002b63c2412af2713795e29a1"
     },
     {
       "path": "plantillas/06-portada-presentacion.svg",
-      "bytes": 80537,
-      "sha256": "04363783520debe2f73e5efcfedfc8ae58a9f154eecb9d318dc600da599b4bec"
+      "bytes": 80563,
+      "sha256": "2bc8f7d47b72f10b78ee4beeb3154fa0daf35f8efca3d0b042f4158044e7dc3e"
     },
     {
       "path": "plantillas/README.md",
@@ -1008,17 +1008,17 @@
     {
       "path": "referencias/verificacion-automatica.json",
       "bytes": 1639,
-      "sha256": "20337f328c69cf6968e5df1f67f281c6a66853787b93fd8b65a4693c248bf3f6"
+      "sha256": "43f41e242008b4f2741bce9cd43ad5313a68fad7ca76f4ac78973849b3496ec7"
     },
     {
       "path": "scripts/build-pack.mjs",
-      "bytes": 25716,
-      "sha256": "043b5657efe6f3353ccc85bedec8c6b62256c8c1496790e4f2eed4ec662e87f0"
+      "bytes": 25774,
+      "sha256": "4e8fdc41195cd393d71fe4893574e59827b48d5b7f342a80cabbd0ca80f3d95f"
     },
     {
       "path": "scripts/build.mjs",
-      "bytes": 43163,
-      "sha256": "7e7f13c005cc06c00a290649513c54ab78e123b58df3c178e664239dcd8d1e41"
+      "bytes": 43131,
+      "sha256": "87c97e850d68a67be5dea51b236f9507112b263d03088543a8d960ecb16dbc4b"
     },
     {
       "path": "scripts/catalogo-maestro.json",
@@ -1038,7 +1038,7 @@
     {
       "path": "scripts/package.mjs",
       "bytes": 1495,
-      "sha256": "2e04cc88958445f169dc404aa66bfe9d2b877131f63476e0eade9827f9e65cc2"
+      "sha256": "ebc220ad9320b59633fe8b65cc70cb083a0fe7d46bf63b77cfea09153f568748"
     },
     {
       "path": "scripts/prepare-fonts.py",
@@ -1048,7 +1048,7 @@
     {
       "path": "scripts/render-and-verify.mjs",
       "bytes": 6968,
-      "sha256": "5db05545b593efce461dca86aa814f7f7caa63b74209a8f3f45d8a5764aa085c"
+      "sha256": "39ae9ed4c925a81b6fa6aa1a20c700f1d96ed0f7759cdda0fa566b5084adc6a3"
     },
     {
       "path": "scripts/requirements.txt",
@@ -1063,7 +1063,12 @@
     {
       "path": "tokens.json",
       "bytes": 499,
-      "sha256": "84692a2a0a7964bd3d1e3331b9016fed2da5fea19289c4127c3c9c49540bfc23"
+      "sha256": "d265179c28d385a1850d87189bddcd980abdda3c63b298a1ccdd2f28f7dddc7f"
+    },
+    {
+      "path": "voz-y-proposito.md",
+      "bytes": 7924,
+      "sha256": "42132dcad6218a7907d18d1cddacc59825515d588b7d3c5c931c97737bd4f0fa"
     }
   ]
 }

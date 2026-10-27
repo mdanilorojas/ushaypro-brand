@@ -46,7 +46,7 @@ try{
  await page.goto(pathToFileURL(path.join(ROOT,'index.html')).href);await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:path.join(QA,'catalog-mobile.png'),fullPage:true});const catalogWidth=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
  await page.setViewportSize({width:1440,height:1100});await page.screenshot({path:path.join(QA,'catalog-desktop.png'),fullPage:true});
  const images=await page.evaluate(()=>[...document.images].filter(i=>!i.complete||i.naturalWidth===0).map(i=>i.src));
- const result={date:'2026-10-25',manualPages:metrics.length,layoutIssues:metrics.filter(m=>m.bad.length),javascriptErrors:errors,motion,playback:{playing,paused},reduced,motionWidth,catalogWidth,brokenImages:images};
+ const result={date:'2026-10-27',manualPages:metrics.length,layoutIssues:metrics.filter(m=>m.bad.length),javascriptErrors:errors,motion,playback:{playing,paused},reduced,motionWidth,catalogWidth,brokenImages:images};
  fs.writeFileSync(path.join(ROOT,'referencias/verificacion-automatica.json'),JSON.stringify(result,null,2));
  console.log(JSON.stringify({motion,playing,paused,reduced,motionWidth,catalogWidth,brokenImages:images}));
  if(result.layoutIssues.length||errors.length||images.length||!playing||!paused||!reduced.disabled||reduced.transition!=='0s'||motionWidth.width!==motionWidth.scrollWidth||catalogWidth.width!==catalogWidth.scrollWidth||motion.some(m=>m.blocks!==11||m.blue!==2||m.pressed!==1))throw Error('Artifact verification failed; see referencias/verificacion-automatica.json');

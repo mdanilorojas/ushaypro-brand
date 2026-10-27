@@ -1,8 +1,10 @@
 # UshayPro · Pack de marca y marketing
 
-Versión 2.1 · 25 de octubre de 2026 · Proveedores + Estado.
+Versión 2.2 · 27 de octubre de 2026 · Proveedores + Estado.
 
 **Empieza abriendo `index.html`.** Es el catálogo visual del pack y funciona con archivos locales. El manual incluido conserva sus 28 páginas.
+
+**Firma de marca:** Tu equipo de IA para la contratación pública. **Convicción y cierre:** Que gane el mejor. La voz aprobada en [voz-y-proposito.md](voz-y-proposito.md) expresa esperanza, iniciativa privada, eficiencia, participación y transparencia. Los [mensajes base](mensajes.md) siguen este criterio y distinguen visión de capacidades demostradas.
 
 ## Qué contiene
 
@@ -14,6 +16,7 @@ Versión 2.1 · 25 de octubre de 2026 · Proveedores + Estado.
 | `plantillas/` | 6 composiciones; 10 SVG editables y 10 PNG, incluido un carrusel de 5 láminas |
 | `fuentes/` | Archivo, IBM Plex Mono e Inter; archivos locales y licencias |
 | `mensajes.md` | Mensajes y textos base para campañas |
+| `voz-y-proposito.md` | Propósito, tono y criterios editoriales aprobados el 27 de octubre |
 | `tokens.json` | Colores, familias tipográficas y reglas de geometría |
 | `referencias/` | Decisiones, contrastes y validación del pack |
 | `scripts/` | Fuentes de generación y comandos para reconstruir el pack |
@@ -43,4 +46,10 @@ Para regenerar con Node.js, Playwright y Sharp instalados: `npm install` y `npm 
 
 El pack no incluye una integración Figma/Canva ni un video renderizado. Las plantillas son archivos SVG editables; la portada de story es una pieza estática. `agentes/movimiento.html` muestra transformaciones de los bloques sin ejecutar tareas de IA.
 
-UshayPro es un proyecto independiente, sin afiliación ni respaldo del SERCOP. Las fuentes tipográficas conservan sus licencias SIL OFL. La versión 2.1 está preparada para revisión y publicación; esta nota no afirma que ya se haya publicado.
+## Fuentes públicas
+
+- Kit y descargas: https://ushaypro.ec/marca/
+- Originales: https://github.com/mdanilorojas/ushaypro-brand
+- Guía de agentes, skills y marca: https://blog.ushaypro.ec/guias/agentes-y-skills-ushaypro
+
+UshayPro es un proyecto independiente, sin afiliación ni respaldo del SERCOP. Las fuentes tipográficas conservan sus licencias SIL OFL.
